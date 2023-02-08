@@ -1,5 +1,5 @@
 # Project Name
-> Outline a brief description of your project.
+> Lending Club Case Studay.
 
 
 ## Table of Contents
@@ -7,46 +7,42 @@
 * [Technologies Used](#technologies-used)
 * [Conclusions](#conclusions)
 * [Acknowledgements](#acknowledgements)
-
-<!-- You can include any other section that is pertinent to your problem -->
+* [Contact](#Contact)
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+The project is for a major lending company whose is market leader in lending the amount. This company brings the lenders and borrowers to geather. 
+The company wants to understand the driving factors (or driver variables) behind loan default on the information provided by applicants during the application.
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+1.	Lower the Grade , higher the defaults. 
+2.	Overall data says that most of them are repaying the loans.
+3.	High interest leads to more defaults.
+4.	CA addr_state has high default rates.
+5.	36 months tenure loans are prone to high defaults. 
+6.	People with less experiance (less than two years) Very high experience (10 + years) are prone to high defaults. 
+7.	People who are in Rents and Mortgauge Home_Ownership are prone to high defaults. 
+8.	More defaults are oversved in December months. Defaults are constantly increasing over the years. 
+9.	Low income earners are likely to default. 
+10.	debt_conslidation purpose has high default rates irresptive of income earned. 
+11.	loan amount, funded amount , funded_amount_inv are deeply correlated. 
+12.	Interest rate is negitively corelated to loan paid.
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
-
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
+python 3
+	pandas
+	matplotlib.pyplot
+	re
+	matplotlib.pyplot
+	datetime
+	seaborn
+Juypter notebook
+git
 
 ## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
+
+This project as part of Upgrad EDA assignment
 
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
-
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
+Created by https://github.com/saibharathparsam and https://github.com/udayrangta89
